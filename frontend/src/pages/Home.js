@@ -67,14 +67,14 @@ const Home = () => {
                 </div>
             </div>
             </div>
-            <footer className="bg-[#c484f1] text-[#100d28] py-4 text-center">
+            <footer className="bg-[#c484f1] text-white py-4 text-center">
                 <div className="flex justify-center items-center">
                     <p className="mr-2">Powered by KiiChain.</p>
                     <a
                     href="https://twitter.com/kirillrybkov"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-[#100d28] hover:text-blue-400"
+                    className="flex items-center text-white hover:text-blue-400"
                     >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

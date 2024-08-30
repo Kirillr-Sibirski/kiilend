@@ -50,8 +50,8 @@ const Lending = () => {
       chains: [
         {
           id: '0xa01dc', // Correct hexadecimal for 656476
-          token: 'EDU',
-          label: 'EDU Chain',
+          token: 'KII',
+          label: 'KiiChain',
           rpcUrl: 'https://rpc.open-campus-codex.gelato.digital/'
         },
       ]
@@ -218,7 +218,7 @@ const Lending = () => {
               id="depositAmount"
               type="text"
               className="border-2 border-lightblue rounded px-3 py-1 focus:outline-none focus:border-blue-500"
-              placeholder="Amount in EDU"
+              placeholder="Amount in KII"
             />
             <button
               className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
@@ -230,7 +230,7 @@ const Lending = () => {
               id="withdrawAmount"
               type="text"
               className="border-2 border-lightblue rounded px-3 py-1 focus:outline-none focus:border-blue-500"
-              placeholder="Amount in USDS"
+              placeholder="Amount in KUSD"
             />
           </div>
 
@@ -245,12 +245,12 @@ const Lending = () => {
 
               <div>
                 <h3 className="text-lg font-medium">Total Debt Left to Repay</h3>
-                <p className="text-xl">{debtValue} USDS</p>
+                <p className="text-xl">{debtValue} KUSD</p>
               </div>
 
               <div>
                 <h3 className="text-lg font-medium">Collateral Amount</h3>
-                <p className="text-xl">{collateralValueDeployed} EDU</p>
+                <p className="text-xl">{collateralValueDeployed} KII</p>
               </div>
             </div>
 
@@ -262,7 +262,7 @@ const Lending = () => {
                   id="borrowableAmount"
                   type="text"
                   className="rounded px-3 py-1 focus:outline-none focus:border-blue-500 text-black w-1/2"
-                  placeholder="Collateral amount in EDU"
+                  placeholder="Collateral amount in KII"
                 />
                 <button
                   className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
@@ -271,14 +271,14 @@ const Lending = () => {
                   Calculate Borrowable Amount
                 </button>
               </div>
-              <p className="text-xl">{borrowableValue} USDS</p>
+              <p className="text-xl">{borrowableValue} KUSD</p>
 
               <div className="flex space-x-4 mt-4">
                 <input
                   id="collateralAmount"
                   type="text"
                   className="rounded px-3 py-1 focus:outline-none focus:border-blue-500 text-black w-1/2"
-                  placeholder="Repayment amount in USDS"
+                  placeholder="Repayment amount in KUSD"
                 />
                 <button
                   className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
@@ -287,19 +287,19 @@ const Lending = () => {
                   Calculate Withdrawable Collateral
                 </button>
               </div>
-              <p className="text-xl">{collateralValue} EDU</p>
+              <p className="text-xl">{collateralValue} KII</p>
             </div>
           </div>
         </div>
       </div>
-      <footer className="bg-[#c484f1] text-[#100d28] py-4 text-center">
+      <footer className="bg-[#c484f1] text-white py-4 text-center">
         <div className="flex justify-center items-center">
-          <p className="mr-2">Powered by EDU Chain.</p>
+          <p className="mr-2">Powered by KiiChain.</p>
           <a
             href="https://twitter.com/kirillrybkov" // Replace with your Twitter profile URL
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-[#100d28] hover:text-blue-400"
+            className="flex items-center text-white hover:text-blue-400"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
