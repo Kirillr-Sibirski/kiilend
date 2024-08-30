@@ -166,16 +166,16 @@ const Lending = () => {
 
   return (
     <div>
-      <nav className="bg-[#FCFFFC] p-4">
+      <nav className="bg-[#100d28] p-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0 text-[#5A9367] mr-6">
+          <div className="flex items-center flex-shrink-0 text-[#c484f1] mr-6">
             <Link to="/" className="font-semibold text-xl">
-              Sorrel Finance
+              KiiLend
             </Link>
           </div>
           <div className="block lg:hidden">
             <button
-              className="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-400 hover:text-[#FCFFFC] hover:border-[#FCFFFC]"
+              className="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-400 hover:text-[#100d28] hover:border-[#100d28]"
               onClick={() => {
                 // Add functionality for mobile menu toggle here
                 console.log('Mobile menu clicked');
@@ -196,7 +196,7 @@ const Lending = () => {
               <li>
                 <a
                   onClick={connectWallet}
-                  className="block w-full py-2 px-4 text-black bg-[#90fcf9] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#FCFFFC] "
+                  className="block w-full py-2 px-4 text-white bg-[#c484f1] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#100d28] "
                 >
                   {walletButtonText} {/* Updated to use dynamic text */}
                 </a>
@@ -205,11 +205,11 @@ const Lending = () => {
           </div>
         </div>
       </nav>
-      <div className="bg-[#FCFFFC] h-screen flex items-center justify-center">
+      <div className="bg-[#100d28] h-screen flex items-center justify-center">
         <div className="max-w-7xl w-full px-4 flex space-x-8">
           <div className="flex flex-col space-y-4 w-1/3">
             <button
-              className="bg-[#90fcf9] hover:bg-[#FCFFFC] text-black font-bold py-2 px-4 rounded"
+              className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
               onClick={() => handleDeposit(document.getElementById('depositAmount').value)}
             >
               Deposit
@@ -221,7 +221,7 @@ const Lending = () => {
               placeholder="Amount in EDU"
             />
             <button
-              className="bg-[#90fcf9] hover:bg-[#FCFFFC] text-black font-bold py-2 px-4 rounded"
+              className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
               onClick={() => handleWithdraw(document.getElementById('withdrawAmount').value)}
             >
               Withdraw
@@ -234,7 +234,7 @@ const Lending = () => {
             />
           </div>
 
-          <div className="w-2/3 bg-[#2d3a3a] p-6 rounded-lg text-[#FCFFFC]">
+          <div className="w-2/3 bg-[#ffffff] p-6 rounded-lg text-[#100d28]">
             <h2 className="text-2xl font-semibold mb-6">Your Loan Overview</h2>
 
             <div className="space-y-6">
@@ -265,7 +265,7 @@ const Lending = () => {
                   placeholder="Collateral amount in EDU"
                 />
                 <button
-                  className="bg-[#90fcf9] hover:bg-[#FCFFFC] text-black font-bold py-2 px-4 rounded"
+                  className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
                   onClick={() => handleBorrowable(document.getElementById('borrowableAmount').value)}
                 >
                   Calculate Borrowable Amount
@@ -281,7 +281,7 @@ const Lending = () => {
                   placeholder="Repayment amount in USDS"
                 />
                 <button
-                  className="bg-[#90fcf9] hover:bg-[#FCFFFC] text-black font-bold py-2 px-4 rounded"
+                  className="bg-[#c484f1] hover:bg-[#100d28] text-white font-bold py-2 px-4 rounded"
                   onClick={() => handleCollateral(document.getElementById('collateralAmount').value)}
                 >
                   Calculate Withdrawable Collateral
@@ -292,14 +292,14 @@ const Lending = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-[#5A9367] text-[#FCFFFC] py-4 text-center">
+      <footer className="bg-[#c484f1] text-[#100d28] py-4 text-center">
         <div className="flex justify-center items-center">
           <p className="mr-2">Powered by EDU Chain.</p>
           <a
             href="https://twitter.com/kirillrybkov" // Replace with your Twitter profile URL
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center text-[#FCFFFC] hover:text-blue-400"
+            className="flex items-center text-[#100d28] hover:text-blue-400"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

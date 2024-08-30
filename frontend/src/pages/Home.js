@@ -5,10 +5,10 @@ import logo from './logo.png';
 const Home = () => {
     return (
         <div>
-            <nav className="bg-[#FCFFFC] p-4">
+            <nav className="bg-[#100d28] p-4">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <div className="flex items-center flex-shrink-0 text-[#5A9367] mr-6">
-                    <span className="font-semibold text-xl">Sorrel Finance</span>
+                <div className="flex items-center flex-shrink-0 text-[#c484f1] mr-6">
+                    <span className="font-semibold text-xl">KiiLend</span>
                 </div>
                 <div className="block lg:hidden">
                     <button
@@ -35,7 +35,7 @@ const Home = () => {
                         <li>
                             <a
                                 href="/app"
-                                className="block w-full py-2 px-4 text-[#040F0F] bg-[#90FCF9] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#FCFFFC]"
+                                className="block w-full py-2 px-4 text-[#ffffff] bg-[#c484f1] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#100d28]"
                             >
                                 Launch App
                             </a>
@@ -44,18 +44,18 @@ const Home = () => {
                 </div>
                 </div>
             </nav>
-            <div className="bg-[#FCFFFC] h-screen flex items-center justify-center">
+            <div className="bg-[#100d28] h-screen flex items-center justify-center">
             <div className="max-w-7xl w-full px-4 flex">
                 <div className="flex flex-col">
-                <h1 className="text-9xl text-[#040F0F]">Welcome</h1>
-                <p className="text-3xl text-[#040F0F] mt-6">
-                    To the first lending platform aimed at bringing funding into the education industry through Open Campus & EDU Chain.
+                <h1 className="text-9xl text-[#ffffff]">Welcome</h1>
+                <p className="text-3xl text-[#ffffff] mt-6">
+                To the first lending platform focused on channeling funding into Latin America through the innovative capabilities of KiiChain.
                 </p>
                 <ul className="flex space-x-4 mt-6">
                     <li>                    
                     <a
                         href="/app"
-                        className="block py-2 px-4 text-[#040F0F] bg-[#90FCF9] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#FCFFFC]"
+                        className="block py-2 px-4 text-[#ffffff] bg-[#c484f1] rounded-md text-center transition duration-300 ease-in-out uppercase font-medium truncate hover:bg-[#100d28]"
                     >
                         Enter
                     </a>
@@ -67,14 +67,14 @@ const Home = () => {
                 </div>
             </div>
             </div>
-            <footer className="bg-[#5A9367] text-[#FCFFFC] py-4 text-center">
+            <footer className="bg-[#c484f1] text-[#100d28] py-4 text-center">
                 <div className="flex justify-center items-center">
-                    <p className="mr-2">Powered by EDU Chain.</p>
+                    <p className="mr-2">Powered by KiiChain.</p>
                     <a
                     href="https://twitter.com/kirillrybkov"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-[#FCFFFC] hover:text-blue-400"
+                    className="flex items-center text-[#100d28] hover:text-blue-400"
                     >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
