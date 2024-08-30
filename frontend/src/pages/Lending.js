@@ -49,10 +49,10 @@ const Lending = () => {
       wallets: [injected],
       chains: [
         {
-          id: '0xa01dc', // Correct hexadecimal for 656476
+          id: '123454321', // Correct hexadecimal for 656476
           token: 'KII',
-          label: 'KiiChain',
-          rpcUrl: 'https://rpc.open-campus-codex.gelato.digital/'
+          label: 'KiiChain Testnet',
+          rpcUrl: 'https://a.sentry.testnet.kiivalidator.com:8645/'
         },
       ]
     });
